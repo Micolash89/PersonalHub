@@ -1,32 +1,9 @@
 import FooterLink from "@/components/FooterLink";
-import LinkSocial from "@/components/LinkSocial";
+import NavigationLinks from "@/components/NavigationLinks";
 import { inter } from "@/lib/font";
 import Image from "next/image";
 
 export default function Home() {
-  const arrLinks = [
-    {
-      name: "GitHub",
-      link: "#",
-    },
-    {
-      name: "Frontend Mentor",
-      link: "#",
-    },
-    {
-      name: "LinkedIn",
-      link: "#",
-    },
-    {
-      name: "Twitter",
-      link: "#",
-    },
-    {
-      name: "Instagram",
-      link: "#",
-    },
-  ];
-
   return (
     <>
       <main
@@ -35,26 +12,24 @@ export default function Home() {
         <Image
           width={75}
           height={75}
-          src="/images/avatar-jessica.jpeg"
-          alt="Jessica Randall"
+          src="/images/profile-pic.png"
+          alt="Avatar Perfil"
           className="rounded-full object-cover"
         />
 
         <div className="flex flex-col items-center gap-3">
-          <h1 className="text-2xl font-bold text-white">Jessica Randall</h1>
+          <h1 className="text-2xl font-bold text-white">
+            Espindola Javier Nicolas
+          </h1>
 
-          <h2 className="text-lime-300">London, United Kingdom</h2>
+          <h2 className="text-neutral-300">Full Stack Developer</h2>
         </div>
 
         <h3 className="text-neutral-400 mt-2">
-          {'"Front-end developer and avid reader."'}
+          {'"The best way to predict the future is to create it."'}
         </h3>
 
-        <nav className="flex flex-col gap-4 w-full">
-          {arrLinks.map((link, index) => (
-            <LinkSocial key={index} name={link.name} reference={link.link} />
-          ))}
-        </nav>
+        <NavigationLinks />
       </main>
       <FooterLink />
     </>
