@@ -1,5 +1,7 @@
 # My Personal Digital Hub
 
+![Personal Hub](./170shots_so.jpg)
+
 ## 🌐 Mi Centro Digital Personal
 
 Este proyecto es **My Personal Digital Hub**, una solución inspirada en el desafío "Social links profile" de [Frontend Mentor](https://www.google.com/search?q=https://www.frontendment.io), pero reinventado como mi propia versión de un "Linktree" personalizado. Aquí centralizo todos mis enlaces digitales más relevantes: desde mi perfil de LinkedIn y GitHub, hasta mi portafolio personal y cualquier otra presencia online que desee destacar. Es mi espacio para compartir de manera organizada y accesible quién soy digitalmente.
@@ -30,8 +32,8 @@ Si deseas ver el código o replicar la estructura de este hub en tu entorno, sig
 
 1.  **Clona este repositorio**:
     ```bash
-    git clone https://github.com/Micolash89/social-links-profile-main-nextjs
-    cd social-links-profile-main-nextjs
+    git clone https://github.com/Micolash89/PersonalHub
+    cd PersonalHub
     ```
 2.  **Instala las dependencias**:
     ```bash
@@ -56,5 +58,5 @@ Este proyecto ha sido una valiosa oportunidad para consolidar y expandir mis con
 ## 🌐 Visita Mi Hub en Vivo
 
 Puedes acceder a la versión desplegada de mi Personal Digital Hub aquí:
-[Explorar My Personal Digital Hub](https://www.google.com/search?q=https://social-links-profile-main-nextjs.vercel.app/) - Desplegado en Vercel.
+[Explorar My Personal Digital Hub](https://espindola-links.vercel.app/) - Desplegado en Vercel.
 
