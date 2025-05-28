@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Social Links",
-  description: "Frontend Mentor - Social links profile challenge",
+  title: "Personal Links",
+  description: "Personal Links Profesionales",
   icons: {
-    icon: "/images/favicon-32x32.png",
-    shortcut: "/images/favicon-32x32.png",
-    apple: "/images/favicon-32x32.png",
+    icon: "/images/icons8-link-70.png",
+    shortcut: "/images/icons8-link-70.png",
+    apple: "/images/icons8-link-70.png",
   },
 };
 

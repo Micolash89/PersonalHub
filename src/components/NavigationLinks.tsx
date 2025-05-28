@@ -68,7 +68,7 @@ export default function NavigationLinks() {
         >
           <span className="group-hover:text-white group-hover:-translate-y-8 transition-all duration-300 ease-in-out capitalize font-bold text-white block">
             {link.name}
-          <svg width={"50"} height={"50"} className=" translate-y-8 group-hover:-translate-y-0 w-full flex justify-center  transition-all duration-300 ease-in-out" >
+          <svg width={"45"} height={"45"} className=" translate-y-8 group-hover:-translate-y-0 w-full flex justify-center  transition-all duration-300 ease-in-out" >
             <use href={link.icon} />
           </svg>
           </span>
