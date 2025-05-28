@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import sprite from '/symbol/sprite.svg';
 
 export default function NavigationLinks() {
   const tableRowVariants = {
